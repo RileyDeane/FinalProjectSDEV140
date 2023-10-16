@@ -1,8 +1,9 @@
+# Creates a function that checks for the quality of the user's password
 def ContainsCharacters(password):
     score = 0
     minLength = 8
     
-    # Define the character lists
+    # Creates 'lists' of characters that will be checked for in the password
     upperCase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
     lowerCase = 'abcdefghijklmnopqrstuvwxyz'
     digits = '0123456789'

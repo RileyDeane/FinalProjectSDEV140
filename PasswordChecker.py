@@ -32,8 +32,8 @@ class PasswordChecker(EasyFrame):
 
     # gets the password from the init and passes it into the switch case
     def checkPassword(self):
-        password = self.passwordField.getText()
-        score = ContainsCharacters(password)
+        password = self.passwordField.getText() # Gets the password from the Library.py 
+        score = ContainsCharacters(password) # Creates a score variable for this class, another is created in the Library.py, but is not the same
 
         # Creates a "Switch case" to check the strength of the user's password
         if score == 1:
